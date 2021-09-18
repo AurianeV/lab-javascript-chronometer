@@ -1,11 +1,28 @@
 class Chronometer {
   constructor() {
     // ... your code goes here
+    this.currentTime=0
+    this.intervalId=null
   }
 
   start(callback) {
     // ... your code goes here
-  }
+    // toutes les sec augmente currrentTime de 1
+    
+      /*function minuter(seconds){
+        setTimeout(function(){
+
+        }, 1000)
+        counter +=1;
+      
+      } */
+      const callback = function () {
+        console.log(counter);
+        setTimeout(callback, 1000);
+       
+        counter += 1;
+      };
+  }  
 
   getMinutes() {
     // ... your code goes here
