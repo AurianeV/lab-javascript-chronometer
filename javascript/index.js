@@ -1,4 +1,4 @@
-const chronometer = new Chronometer();
+const chronometer = new Chronometer(); // {currentTime: 4}
 
 // get the buttons:
 const btnLeftElement = document.getElementById('btnLeft');
@@ -57,9 +57,14 @@ function setResetBtn() {
 // Start/Stop Button
 btnLeftElement.addEventListener('click', () => {
   // ... your code goes here
+  // 1. changer le text START du bouton en STOP (.innerHTML)
+  btnLeftElement.innerHTML="STOP";
+  // 2. passer le bout en rouge (.className)
+  btnLeftElement.innerHTML.getElementsByClassName('red').style.background = "red";
 });
 
 // Reset/Split Button
-btnRightElement.addEventListener('click', () => {
+btn.startElement.addEventListener('click', () => {
   // ... your code goes here
+
 });
