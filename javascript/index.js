@@ -60,11 +60,19 @@ btnLeftElement.addEventListener('click', () => {
   // 1. changer le text START du bouton en STOP (.innerHTML)
   btnLeftElement.innerHTML="STOP";
   // 2. passer le bout en rouge (.className)
-  btnLeftElement.getElementsByClassName('red').style.background = "red";
+ 
+  btnLeftElement.className= "btn stop";
+  //btnLeftElement.style.background = 'red';
+
 });
 
 // Reset/Split Button
 btn.startElement.addEventListener('click', () => {
   // ... your code goes here
+  btn.StartElement.innerHTML="SPLIT";
+  // 2. passer le bout en rouge (.className)
+ 
+  //btnLeftElement.className= "btn st";
+  //btnLeftElement.style.background = 'red';
 
 });
