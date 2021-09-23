@@ -60,7 +60,7 @@ btnLeftElement.addEventListener('click', () => {
   // 1. changer le text START du bouton en STOP (.innerHTML)
   btnLeftElement.innerHTML="STOP";
   // 2. passer le bout en rouge (.className)
-  btnLeftElement.innerHTML.getElementsByClassName('red').style.background = "red";
+  btnLeftElement.getElementsByClassName('red').style.background = "red";
 });
 
 // Reset/Split Button
