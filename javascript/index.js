@@ -69,10 +69,9 @@ btnLeftElement.addEventListener('click', () => {
 // Reset/Split Button
 btn.startElement.addEventListener('click', () => {
   // ... your code goes here
-  btn.StartElement.innerHTML="SPLIT";
-  // 2. passer le bout en rouge (.className)
- 
-  //btnLeftElement.className= "btn st";
-  //btnLeftElement.style.background = 'red';
+  // 1. changer le text RESET du bouton en SPLIT (.innerHTML)
+  btn.startElement.innerHTML="SPLIT";
+
+  btn.startElement.className= "btn start";
 
 });
